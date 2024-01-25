@@ -6,7 +6,7 @@ const App =() => {
   const {setStorage} = useStorage();
   return (
     <div>
-      <input type="text" onChange={(e)=> setStorage(e.target.value)} />
+      <input className='button' type="text" onChange={(e)=> setStorage(e.target.value)} />
     </div>
   )
 }
