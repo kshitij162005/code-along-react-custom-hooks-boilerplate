@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import useStorage from "./customHooks/useStorage.jsx"
+import useStorage from "./customHooks/useStorage"
 
 const App =() => {
   const {setStorage} = useStorage();
